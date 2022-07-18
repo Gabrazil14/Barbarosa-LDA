@@ -1,0 +1,14 @@
+<template>
+    <lightning-combobox
+            name="progress"
+            label="Language"
+            value={value}
+            placeholder="Select Language"
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+
+    <p>Selected Language is: {value}</p>
+    <h1>
+        {label}
+    </h1>
+</template>
